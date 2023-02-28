@@ -5,3 +5,5 @@ class Waiter(models.Model):
     name = models.CharField(max_length=100,default='')
     last_name = models.CharField(max_length=100, default='')
     dni = models.IntegerField()
+    provenance = models.CharField(max_length=100, default='')
+    years = models.IntegerField()
