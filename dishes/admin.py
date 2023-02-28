@@ -7,3 +7,4 @@ from .models import Dishes
 class DishesAdmin(admin.ModelAdmin):
     list_display = ("name","price",)
     list_filter = ("name",)
+    # hola
